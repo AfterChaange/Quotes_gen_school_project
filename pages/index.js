@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Copak to bude dnes?" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          jebne mě dneska už :!
         </p>
         <div class="neco">
           
