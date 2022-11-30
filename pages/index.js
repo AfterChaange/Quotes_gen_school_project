@@ -27,9 +27,10 @@ export default function Home() {
   )
 }
 function test (){
+  console.log("test");
   fetch('./content.json').then(function (response) {
     return response.json();
-    console.log("test");
+    
   })
 }
 test();
