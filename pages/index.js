@@ -15,9 +15,20 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <div class="neco">
+          
+        </div>
       </main>
+
+
 
       <Footer />
     </div>
   )
 }
+function test (){
+  fetch('./content.json').then(function (response) {
+    return response.json();
+  })
+}
+test();
