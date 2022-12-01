@@ -15,7 +15,7 @@ export default function Home() {
         <p className="description">
           jebne mě dneska už :!
         </p>
-        <div class="neco">
+        <div id="neco">
           
         </div>
       </main>
@@ -32,5 +32,15 @@ function test (){
     return response.json();
     
   })
-}
+  .then(function (data) {
+    for(var i=0;i<data.lenght;i++) {
+      document.getElementById("neco").innerHTML +=
+      data[i].id + "=>" + data[i].name + " " + data[i].content + "<br />" ;
+
+    }
+  })
+  .catch(function(err){
+    console.log(err);
+  }
+)};
 test();

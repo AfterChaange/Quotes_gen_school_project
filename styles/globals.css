@@ -33,3 +33,9 @@ code {
   justify-content: center;
   align-items: center;
 }
+#neco{
+  position: absolute;
+  height: 100vm;
+  width: 100vm;
+  color:aqua;
+}
