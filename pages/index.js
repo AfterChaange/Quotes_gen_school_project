@@ -10,17 +10,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+{/*     <!--  <main>
         <Header title="Copak to bude dnes?" />
         <p className="description">
           jebne mě dneska už :!
         </p>
-        <div id="neco">
-          
-        </div>
+
       </main>
-
-
+      --> */}
+      <div id="neco">
+          
+          </div>
 
       <Footer />
     </div>
