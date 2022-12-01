@@ -28,7 +28,7 @@ export default function Home() {
 }
 function test (){
   console.log("test");
-  fetch('content.json').then(function (response) {
+  fetch('https://github.com/AfterChaange/Quotes_gen_school_project/blob/main/pages/content.json').then(function (response) {
     return response.json();
     
   })
