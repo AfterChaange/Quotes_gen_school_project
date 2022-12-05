@@ -50,4 +50,4 @@ function next() {
     document.getElementById("necoo").innerHTML=quotes[cislo].toString();
     console.log(cislo);
 
-}
+};
