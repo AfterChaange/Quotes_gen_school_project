@@ -9,7 +9,7 @@ export default function Home() {
         <title>píčovina</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+<body onLoad={next()}>
 {       <main>
   <div class="container center">
         <div class="card">
@@ -20,12 +20,14 @@ export default function Home() {
         </div>
     </div> 
       </main>
+      
       }
       <div id="neco">
           
           </div>
 
       <Footer />
+      </body>
     </div>
   )
 }
@@ -48,4 +50,4 @@ function next() {
     document.getElementById("necoo").innerHTML=quotes[cislo].toString();
     console.log(cislo);
 
-};
+}
