@@ -6,23 +6,25 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title> quotes gen</title>
+        <title>píčovina</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-{
-  <body onLoad={next()}>
-      <div class="container center">
-      <div class="card">
-        <h2 id="neco"> </h2>
-        <hr/>
-        <div id="necoo"> </div>
-        <button onclick="next()">Další</button>
-      </div>
-  </div> 
-  </body>
-      
+{       <main>
+  <div class="container center">
+        <div class="card">
+          <h2 id="neco"> </h2>
+          <hr/>
+          <div id="necoo"> </div>
+          <button onclick="next()">Další</button>
+        </div>
+    </div> 
+      </main>
       }
+      <div id="neco">
+          
+          </div>
+
       <Footer />
     </div>
   )
@@ -46,4 +48,4 @@ function next() {
     document.getElementById("necoo").innerHTML=quotes[cislo].toString();
     console.log(cislo);
 
-}
+};
