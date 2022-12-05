@@ -16,7 +16,7 @@ export default function Home() {
           <h2 id="neco"> </h2>
           <hr/>
           <div id="necoo"> </div>
-          <button onclick="next()">Další</button>
+          <button onclick="dalsi()">Další</button>
         </div>
     </div> 
       </main>
@@ -40,7 +40,7 @@ const quotes = ["Předvídavost je jako podivuhodná tapiserie, vytvořená z ti
 "Dívat se na západ slunce je krása, někdy však je potřeba vkročit do tmy a srovnat se s realitou Krasný západ","Ze začátku jsem byla nešťastná z barev, které jsem si zvolila, přišly mi nepřirozené. Když jsem ale viděla konečný výsledek tak jsem byla mile překvapena. Teplé barvy můžou připomínat západ slunce v jižních zemích.",
 "Rudý měsíc nad polem, jako klid před bouří","Když chodíte na ryby, přiroste vám řeka k srdci, jako ta nejlepší ženská. Je věrná a vzrušující, uklidňující a přitom nevyzpytatelná"];
 
-function next() {
+function dalsi() {
 
     var cislo = Math.floor(Math.random()*13);
     /* console.log(names[cislo]);
@@ -51,3 +51,4 @@ function next() {
     console.log(cislo);
 
 }
+dalsi();
